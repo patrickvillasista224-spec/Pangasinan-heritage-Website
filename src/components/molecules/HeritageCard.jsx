@@ -6,7 +6,7 @@ export default function HeritageCard({
   name,
   location,
   description,
-  images,
+  images = [],
 }) {
   const [showDetails, setShowDetails] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
@@ -38,6 +38,11 @@ export default function HeritageCard({
 
       return current + 1;
     });
+  }
+
+  // Don't render an image if there are no images
+  if (images.length === 0) {
+    return null;
   }
 
   return (

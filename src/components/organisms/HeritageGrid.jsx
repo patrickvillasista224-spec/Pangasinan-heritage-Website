@@ -4,6 +4,8 @@ import { useState } from "react";
 import HeritageCard from "../molecules/HeritageCard";
 import SearchForm from "../molecules/SearchForm";
 
+const BASE_PATH = "/Pangasinan-heritage-Website";
+
 const heritageSites = [
   {
     name: "Hundred Islands",
@@ -16,9 +18,9 @@ const heritageSites = [
       "Eco-Tourism",
     ],
     images: [
-      "/images/hundred-islands.jpg",
-      "/images/hundred-islands1.jpg",
-      "/images/hundred-islands2.jpg",
+      `${BASE_PATH}/images/hundred-islands.jpg`,
+      `${BASE_PATH}/images/hundred-islands1.jpg`,
+      `${BASE_PATH}/images/hundred-islands2.jpg`,
     ],
   },
 
@@ -32,9 +34,9 @@ const heritageSites = [
       "Beaches & Islands",
     ],
     images: [
-      "/images/bolinao-lighthouse.jpg",
-      "/images/bolinao-lighthouse1.jpg",
-      "/images/bolinao-lighthouse2.jpg",
+      `${BASE_PATH}/images/bolinao-lighthouse.jpg`,
+      `${BASE_PATH}/images/bolinao-lighthouse1.jpg`,
+      `${BASE_PATH}/images/bolinao-lighthouse2.jpg`,
     ],
   },
 
@@ -48,9 +50,9 @@ const heritageSites = [
       "Eco-Tourism",
     ],
     images: [
-      "/images/balungao-hot-spring.jpg",
-      "/images/balungao-hot-spring1.jpg",
-      "/images/balungao-hot-spring2.jpg",
+      `${BASE_PATH}/images/balungao-hot-spring.jpg`,
+      `${BASE_PATH}/images/balungao-hot-spring1.jpg`,
+      `${BASE_PATH}/images/balungao-hot-spring2.jpg`,
     ],
   },
 
@@ -64,9 +66,9 @@ const heritageSites = [
       "Historical Heritage",
     ],
     images: [
-      "/images/Manaoag1.jpg",
-      "/images/Manaoag2.jpg",
-      "/images/Manaoag3.jpg",
+      `${BASE_PATH}/images/Manaoag1.jpg`,
+      `${BASE_PATH}/images/Manaoag2.jpg`,
+      `${BASE_PATH}/images/Manaoag3.jpg`,
     ],
   },
 
@@ -80,9 +82,9 @@ const heritageSites = [
       "Eco-Tourism",
     ],
     images: [
-      "/images/BolinaoFalls1.jpg",
-      "/images/BolinaoFalls2.jpg",
-      "/images/BolinaoFalls3.jpg",
+      `${BASE_PATH}/images/BolinaoFalls1.jpg`,
+      `${BASE_PATH}/images/BolinaoFalls2.jpg`,
+      `${BASE_PATH}/images/BolinaoFalls3.jpg`,
     ],
   },
 
@@ -96,9 +98,9 @@ const heritageSites = [
       "Eco-Tourism",
     ],
     images: [
-      "/images/Enchanted1.jpg",
-      "/images/Enchanted2.jpg",
-      "/images/Enchanted3.jpg",
+      `${BASE_PATH}/images/Enchanted1.jpg`,
+      `${BASE_PATH}/images/Enchanted2.jpg`,
+      `${BASE_PATH}/images/Enchanted3.jpg`,
     ],
   },
 ];
@@ -194,8 +196,7 @@ export default function HeritageGrid() {
           Showing {filteredSites.length} heritage{" "}
           {filteredSites.length === 1
             ? "site"
-            : "sites"}
-          .
+            : "sites"}.
         </p>
 
       </div>
@@ -268,7 +269,7 @@ export default function HeritageGrid() {
           </p>
 
           <a
-            href="/about"
+            href={`${BASE_PATH}/about`}
             className="about-learn-button"
           >
             Learn More
@@ -280,7 +281,7 @@ export default function HeritageGrid() {
         <div className="about-preview-image">
 
           <img
-            src="/images/hundred-islands.jpg"
+            src={`${BASE_PATH}/images/hundred-islands.jpg`}
             alt="Hundred Islands in Pangasinan"
           />
 
