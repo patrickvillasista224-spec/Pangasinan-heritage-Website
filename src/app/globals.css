@@ -2334,7 +2334,6 @@ body {
   min-height: 400px;
 
   display: flex;
-
   align-items: center;
 
   background:
@@ -2342,22 +2341,17 @@ body {
       rgba(15, 76, 92, 0.82),
       rgba(15, 76, 92, 0.82)
     ),
-    url("/images/hundred-islands1.jpg");
+    url("/Pangasinan-heritage-Website/images/hundred-islands1.jpg");
 
   background-size: cover;
-
   background-position: center;
 }
 
 .about-hero-content {
   width: 100%;
-
   max-width: 1200px;
-
   margin: 0 auto;
-
   padding: 80px var(--space-lg);
-
   color: var(--color-white);
 }
 
@@ -2367,19 +2361,14 @@ body {
 
 .about-hero h1 {
   margin: 0 0 var(--space-lg);
-
   font-size: 56px;
-
   line-height: 1.1;
 }
 
 .about-hero p {
   max-width: 650px;
-
   margin: 0;
-
   font-size: 19px;
-
   line-height: 1.7;
 }
 
