@@ -46,11 +46,11 @@ export default function ContactPage() {
           <div className="contact-information">
 
             <span className="contact-label">
-              LET'S CONNECT
+              LET&apos;S CONNECT
             </span>
 
             <h2>
-              We'd Love to Hear From You
+              We&apos;d Love to Hear From You
             </h2>
 
             <p>
@@ -250,7 +250,7 @@ export default function ContactPage() {
           </p>
 
           <a
-            href="/"
+            href="/Pangasinan-heritage-Website/"
             className="contact-cta-button"
           >
             Explore Heritage Sites

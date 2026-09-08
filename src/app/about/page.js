@@ -143,7 +143,7 @@ export default function AboutPage() {
               <p>
                 Explore historical places and
                 landmarks that reflect the
-                province's past.
+                province&apos;s past.
               </p>
 
             </article>
@@ -175,7 +175,7 @@ export default function AboutPage() {
               </div>
 
               <h3>
-                Beaches & Islands
+                Beaches &amp; Islands
               </h3>
 
               <p>
@@ -210,7 +210,7 @@ export default function AboutPage() {
           </div>
 
           <a
-            href="/"
+            href="/Pangasinan-heritage-Website/"
             className="about-cta-button"
           >
             Explore Heritage Sites
