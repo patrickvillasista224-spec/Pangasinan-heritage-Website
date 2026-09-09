@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pangasinan Heritage Digital Showcase
 
-## Getting Started
+## Project Title
+Pangasinan Heritage Digital Showcase
 
-First, run the development server:
+## Student Name
+Patrick Villasista
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Selected Framework
+Next.js (React)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Website
+https://patrickvillasista224-spec.github.io/Pangasinan-heritage-Website/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Description
+The Pangasinan Heritage Digital Showcase is a website designed to showcase
+the natural, historical, religious, and cultural heritage sites of Pangasinan.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The website allows users to explore different heritage destinations,
+search for specific sites, filter destinations by category, and view
+multiple images and information about each heritage site.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Heritage site showcase
+- Search functionality
+- Category filtering
+- Image slider for heritage sites
+- Explore More popup
+- About Pangasinan page
+- Contact page
+- Responsive website design
+- GitHub Pages deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Heritage Categories
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The website includes the following categories:
 
-## Deploy on Vercel
+- Natural Heritage
+- Historical Heritage
+- Religious Heritage
+- Cultural Heritage
+- Beaches & Islands
+- Eco-Tourism
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js
+- React
+- JavaScript
+- HTML
+- CSS
+- GitHub
+- GitHub Pages
+
+## Deployment
+
+The website is deployed using GitHub Pages with GitHub Actions.
+
+### Live Website
+
+https://patrickvillasista224-spec.github.io/Pangasinan-heritage-Website/
