@@ -78,7 +78,7 @@ export default function AboutPage() {
           <div className="about-image">
 
             <img
-              src="/images/hundred-islands1.jpg"
+              src="/Pangasinan-heritage-Website/images/hundred-islands1.jpg"
               alt="Beautiful landscape of Hundred Islands"
             />
 
